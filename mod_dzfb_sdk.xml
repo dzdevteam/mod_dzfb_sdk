@@ -21,7 +21,9 @@
     <languages>
         <!-- Any language files included with the module -->
         <language tag="en-GB">en-GB.mod_dzfb_sdk.ini</language>
+        <language tag="en-GB">en-GB.mod_dzfb_sdk.sys.ini</language>
         <language tag="vi-VN">vi-VN.mod_dzfb_sdk.ini</language>
+        <language tag="vi-VN">vi-VN.mod_dzfb_sdk.sys.ini</language>
     </languages>
     
     <!-- Optional parameters -->
