@@ -14,6 +14,7 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 require_once __DIR__ . '/helper.php';
 
 $moduleclass_sfx = htmlspecialchars($params->get('moduleclass_sfx'));
+$lang = str_replace('-', '_', $params->get('language', 'en_GB'));
 
 // Display template
 require JModuleHelper::getLayoutPath('mod_dzfb_sdk', $params->get('layout', 'default'));

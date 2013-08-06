@@ -30,6 +30,9 @@
     <config>
         <fields name="params">
             <fieldset name="basic">
+                <field name="language" type="language"
+                    label="MOD_DZFB_SDK_LBL_LANGUAGE"
+                    description="MOD_DZFB_SDK_DESC_LANGUAGE" />
             </fieldset>
             <fieldset name="advanced">
                 <field name="layout" type="modulelayout"
